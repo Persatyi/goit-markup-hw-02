@@ -58,7 +58,7 @@ ul {
 }
 
 .site-nav .link.current {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 
 /* Contacts */
@@ -67,7 +67,6 @@ ul {
   color: var(--primary-text-color);
   text-decoration: none;
 
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -230,4 +229,23 @@ ul {
 .portfolio-list .text {
   font-size: 16px;
   line-height: 1.87;
+}
+
+/* Footer */
+
+.footer .footer-logo {
+  color: var(--primary-white-color);
+}
+
+.contacts .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contacts .contacts-footer {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }

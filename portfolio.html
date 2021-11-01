@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -34,16 +34,16 @@
         </ul>
     </header>
     <main>
-        <!-- Filter of the main content -->
-        <ul class="filters">
-            <li><button class="tab" type="button">Все</button></li>
-            <li><button class="tab" type="button">Веб-сайты</button></li>
-            <li><button class="tab" type="button">Приложения</button></li>
-            <li><button class="tab" type="button">Дизайн</button></li>
-            <li><button class="tab" type="button">Маркетинг</button></li>
-        </ul>
         <!-- Main content -->
         <section>
+            <!-- Filter of the main content -->
+            <ul class="filters">
+                <li><button class="tab" type="button">Все</button></li>
+                <li><button class="tab" type="button">Веб-сайты</button></li>
+                <li><button class="tab" type="button">Приложения</button></li>
+                <li><button class="tab" type="button">Дизайн</button></li>
+                <li><button class="tab" type="button">Маркетинг</button></li>
+            </ul>
             <ul class="portfolio-list">
                 <li>
                     <a  class="link"href="">
@@ -114,14 +114,20 @@
         
     <!-- Footer -->
     <footer class="footer">
-        <a class="logo" href="./index.html">
+        <a class="logo footer-logo" href="./index.html">
             <span class="title">Web</span>Studio
         </a>
         <address>
             <ul class="contacts">
-                <li class="text">г. Киев, пр-т Леси Украинки, 26</li>
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
+                </li>
+                <li>
+                    <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="contacts-footer" href="tel:380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </address>
     </footer>
