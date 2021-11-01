@@ -29,8 +29,8 @@ ul {
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--title-text-color);
-
   text-decoration: none;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -90,8 +90,9 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -127,6 +128,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
   text-transform: uppercase;
 }
 
@@ -144,6 +146,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+
   text-align: center;
 }
 
@@ -165,6 +168,7 @@ ul {
 .employee-position {
   font-size: 16px;
   line-height: 1.18;
+
   text-align: center;
 }
 
@@ -186,18 +190,15 @@ ul {
   line-height: 1.71;
 }
 
-.contacts .text {
-  font-size: 14px;
-  line-height: 1.71;
-}
-
 .contacts .contacts-footer {
   text-decoration: none;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  
   color: rgba(255, 255, 255, 0.6);
 }
 
